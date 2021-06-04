@@ -12,3 +12,8 @@ function myRand() {
     var result = Math.floor(Math.random() * (up - low + 1)) + low;
     document.getElementById('result').innerHTML = result;
 }
+function myClear() {
+    document.getElementsByClassName('low')[0].value = "";
+    document.getElementsByClassName('up')[0].value = "";
+    document.getElementById('result').innerHTML = "";
+}
