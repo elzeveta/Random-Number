@@ -1,0 +1,36 @@
+#result {
+    background-color: #fff;
+    color: #000;
+    width: 40px;
+  }
+  
+  .wrapper {
+    background-color: #e9f3f2;
+    width: 300px;
+    border: 1px solid #009688;
+    padding: 10px;
+    text-align: center;
+    color: #0c0303;
+    margin: auto;
+  }
+  .low,
+  .up {
+    width: 250px;
+    margin: 2px;
+  }
+  .button-random {
+    background-color: #55eb8f;
+    border: 1px solid #009688;
+    padding: 3px 5px;
+    color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .button-clear {
+    background-color: #ccccccd7;
+    border: 1px solid gray;
+    padding: 3px 5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
